@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:state_pressed="true"
+        android:drawable="@android:color/transparent"/>
+	<item 
+<<<<<<< HEAD
+	    android:drawable="@drawable/button_bg"/>
+=======
+	    android:drawable="@drawable/button_bgicon9"/>
+>>>>>>> 998e6f1a441eb5d53d0d98163926f0583d74d85e
+</selector>

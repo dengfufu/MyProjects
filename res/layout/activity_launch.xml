@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:background="@drawable/snow_bg">
+
+    <ImageView 
+        android:id="@+id/icon"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ahaicon"
+        android:layout_centerHorizontal="true"/>
+    
+    <TextView
+        android:id="@+id/a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/a"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/icon" 
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"/>
+    
+    <TextView
+        android:id="@+id/ha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ha"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/a" 
+        android:textColor="#ffffff"
+        android:textSize="30sp"/>
+    
+    <TextView
+        android:id="@+id/tian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tian"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ha"
+        android:textColor="#ffffff"
+        android:textSize="30sp" />
+    
+    <TextView
+        android:id="@+id/qi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qi"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tian" 
+        android:textColor="#ffffff"
+        android:textSize="30sp"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ahaweather"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+
+</RelativeLayout>

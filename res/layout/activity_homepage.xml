@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/snow_bg" >
+    
+    <include 
+        android:id="@+id/title_homepage"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/title_homepage"
+	    android:layout_alignParentTop="true"/>
+    
+    <include 
+	    android:id="@+id/bottom_homepage"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    layout="@layout/bottom_homepage"
+	    android:layout_alignParentBottom="true"/>
+    
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/title_homepage"
+	    android:layout_above="@id/bottom_homepage"
+	    >
+	    
+    </FrameLayout>
+	
+</RelativeLayout>

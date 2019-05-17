@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">啊哈天气</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="a">啊</string>
+	<string name="ha">哈</string>
+	<string name="tian">天</string>
+	<string name="qi">气</string>
+	<string name="ahaweather">AhaWeather</string>
+	<string name="tianqiyubao">天气预报</string>
+	<string name="shenghuozhishu">生活指数</string>
+</resources>

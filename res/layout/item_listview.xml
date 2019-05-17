@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="25dp" >
+    
+	<TextView 
+	    android:id="@+id/zhouji"
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:gravity="center"
+	    android:layout_marginTop="10dp"
+	    android:textColor="#ffffff"
+	    android:textSize="20sp"/>
+	<LinearLayout 
+	    
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:orientation="vertical"
+	    android:gravity="center"
+	    >
+	    <LinearLayout 
+	        android:orientation="horizontal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content">
+	        <ImageView 
+	        android:id="@+id/dayPicture"
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"/>
+	        <ImageView 
+	        android:layout_marginLeft="8dp"
+	        android:id="@+id/nightPicture"
+	        android:layout_width="30dp"
+	        android:layout_height="30dp"/>
+	    </LinearLayout>
+	    <TextView 
+	        android:id="@+id/weather"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	    	android:textSize="17sp"/>
+	</LinearLayout>
+	<LinearLayout 
+	    
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1.5"
+	    android:orientation="vertical"
+	    android:gravity="center"
+	    >
+	    
+	    <TextView 
+	        android:id="@+id/temperature"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	    	android:textSize="17sp"/>
+	    <TextView 
+	        android:id="@+id/wind"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="#ffffff"
+	    	android:textSize="17sp"/>
+	</LinearLayout>
+</LinearLayout>
